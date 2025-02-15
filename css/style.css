@@ -11,6 +11,14 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+#bulletPointList ul li::before {
+  content: "✔"; /* You can change this to any marker you prefer */
+  position: absolute;
+  left: 0;
+  color: #007bff; /* Change the color as needed */
+  font-size: 20px;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-weight: normal;
@@ -789,7 +797,7 @@ h3 {
       background-image: url(../img/testPics/surf4.jpg);
     }
 .slider_area .single_slider {
-  height: 100vh;
+  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
 }
