@@ -797,9 +797,10 @@ h3 {
       background-image: url(../img/testPics/surf4.jpg);
     }
 .slider_area .single_slider {
-  height: 50vh;
+  height: 100vh;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center center;
 }
 .slider_area .single_slider .slider_text h3 {
   color: #ffffff;
